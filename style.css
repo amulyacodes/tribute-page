@@ -11,13 +11,13 @@
     border: 16px solid #1D1E4C;
 }
 .content{
-    width: 1000px;
+    max-width: 80%;
     margin:auto;
 }
 #abdul-image{
-    width: 250px;
-    height: 300px;
-    border-radius: 170px;
+    width: 15.6rem;
+    height: 18.75rem;
+    border-radius: 10.625rem;
 }
 .top-section{
     display: flex;
@@ -73,4 +73,26 @@
     text-align: end;
     margin-bottom: 27px;
     font-size: 12px;
+}
+
+@media  (max-width:870px) {
+    
+    .top-section{
+        display: block;
+        text-align: center;
+    }
+
+    #abdul-title{
+        margin-top: 2rem;
+    }
+    #abdul-title>h1{
+        font-size: 1.7rem;
+    }
+
+    #heading{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+
 }
